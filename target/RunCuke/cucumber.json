@@ -1,0 +1,625 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 14453475600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to add products to shopping cart",
+        "description": "",
+        "id": "gear-test;user-should-be-able-to-add-products-to-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 1461929600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 746547400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "WomenTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1199014500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover on gear menu",
+            "match": {
+              "location": "GearTestSteps.i_mouse_hover_on_gear_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2670774900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on bags",
+            "match": {
+              "location": "GearTestSteps.i_click_on_bags()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3547742100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on product name Overnight Duffle",
+            "match": {
+              "location": "GearTestSteps.i_click_on_product_name_Overnight_Duffle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 78353200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the text overnight Duffle",
+            "match": {
+              "location": "GearTestSteps.i_verify_the_text_overnight_Duffle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 596051100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I change qty 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 13
+                }
+              ],
+              "location": "GearTestSteps.i_change_qty(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 165233200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add to cart button",
+            "match": {
+              "location": "GearTestSteps.i_click_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3660355400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify text You added Overnight Duffle to your shopping cart",
+            "match": {
+              "location": "GearTestSteps.i_verify_text_You_added_Overnight_Duffle_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2876820000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click and shopping cart message",
+            "match": {
+              "location": "GearTestSteps.i_click_and_shopping_cart_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40132057800,
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#cart-147204-qty\"}\n  (Session info: chrome\u003d113.0.5672.93)\nFor documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element\nBuild info: version: \u00274.9.0\u0027, revision: \u0027d7057100a6\u0027\nSystem info: os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [4ac6eaac25138ee204359be5f6c407b1, findElement {using\u003dcss selector, value\u003d#cart-147204-qty}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 113.0.5672.93, chrome: {chromedriverVersion: 113.0.5672.63 (0e1a4471d5ae..., userDataDir: C:\\Users\\sudha\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62400}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:62400/devtoo..., se:cdpVersion: 113.0.5672.93, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}\nSession ID: 4ac6eaac25138ee204359be5f6c407b1\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)\r\n\tat org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat com.sun.proxy.$Proxy23.getText(Unknown Source)\r\n\tat com.softwaretestingboard.magento.utilities.Utility.getTextFromElement(Utility.java:62)\r\n\tat com.softwaretestingboard.magento.pages.GearPage.verifyQty3(GearPage.java:144)\r\n\tat com.softwaretestingboard.magento.steps.GearTestSteps.i_verify_the_Qty(GearTestSteps.java:57)\r\n\tat ✽.Then I verify the Qty 3(gear.feature:16)\r\n",
+              "status": "failed"
+            },
+            "line": 16,
+            "name": "I verify the Qty 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "3",
+                  "offset": 17
+                }
+              ],
+              "location": "GearTestSteps.i_verify_the_Qty(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "I verify product price $135.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "135",
+                  "offset": 24
+                },
+                {
+                  "val": "00",
+                  "offset": 28
+                }
+              ],
+              "location": "GearTestSteps.iProductPrice$(int,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "I change Qty to 5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 16
+                }
+              ],
+              "location": "GearTestSteps.i_change_Qty_to(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "I click on update shopping cart button",
+            "match": {
+              "location": "GearTestSteps.i_click_on_update_shopping_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "I verify the product price $225.00",
+            "match": {
+              "arguments": [
+                {
+                  "val": "225",
+                  "offset": 28
+                },
+                {
+                  "val": "00",
+                  "offset": 32
+                }
+              ],
+              "location": "GearTestSteps.i_verify_the_product_price_$(int,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Gear Test",
+    "description": "As A user i want to add products successfull to shopping cart",
+    "id": "gear-test",
+    "keyword": "Feature",
+    "uri": "gear.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9346927400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User should able to add products in shopping cart",
+        "description": "",
+        "id": "men-test;user-should-able-to-add-products-in-shopping-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 2134379900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 72300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on homepage",
+            "match": {
+              "location": "WomenTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 940193300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I mouse hover on men menu",
+            "match": {
+              "location": "MenTestSteps.i_mouse_hover_on_men_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 199125800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover on bottoms",
+            "match": {
+              "location": "MenTestSteps.i_mouse_hover_on_bottoms()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2154789900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on pants",
+            "match": {
+              "location": "MenTestSteps.i_click_on_pants()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 664607900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I mouse hover on cronus yoga pant",
+            "match": {
+              "location": "MenTestSteps.i_mouse_hover_on_cronus_yoga_pant()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 318107800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on size 32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 16
+                }
+              ],
+              "location": "MenTestSteps.i_click_on_size(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 301094500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on black colour",
+            "match": {
+              "location": "MenTestSteps.i_click_on_black_colour()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 294693100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on add to cart",
+            "match": {
+              "location": "MenTestSteps.i_click_on_add_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994947600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I verify text You added Cronus Yoga Pant to your shopping cart",
+            "match": {
+              "location": "MenTestSteps.i_verify_text_You_added_Cronus_Yoga_Pant_to_your_shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4613472100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I click on shopping cart link",
+            "match": {
+              "location": "MenTestSteps.i_click_on_shopping_cart_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86719400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I verify text Shopping cart",
+            "match": {
+              "location": "MenTestSteps.i_verify_text_Shopping_cart()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75636500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify product name cronus yoga pant",
+            "match": {
+              "location": "MenTestSteps.i_verify_product_name_cronus_yoga_pant()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74850600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I verify Product size 32",
+            "match": {
+              "arguments": [
+                {
+                  "val": "32",
+                  "offset": 22
+                }
+              ],
+              "location": "MenTestSteps.i_verify_Product_size(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123707900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "I verify the product colour Black",
+            "match": {
+              "location": "MenTestSteps.i_verify_the_product_colour_Black()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Men test",
+    "description": "As a user I want to add the product in shopping cart",
+    "id": "men-test",
+    "keyword": "Feature",
+    "uri": "men.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7118878200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should able to sort by product name filter",
+        "description": "",
+        "id": "women-test;user-should-able-to-sort-by-product-name-filter",
+        "after": [
+          {
+            "result": {
+              "duration": 1237622800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 77700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on homepage",
+            "match": {
+              "location": "WomenTestSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 770118300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I mouse hover on women menu",
+            "match": {
+              "location": "WomenTestSteps.iMouseHoverOnWomenMenu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 304926300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I mouse hover on tops",
+            "match": {
+              "location": "WomenTestSteps.iMouseHoverOnTops()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3133637800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on jacket",
+            "match": {
+              "location": "WomenTestSteps.iClickOnJacket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2060631800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I select Sort By filter \"Product Name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Product Name",
+                  "offset": 25
+                }
+              ],
+              "location": "WomenTestSteps.iSelectSortByFilter(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1180287200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should verify the products name display in alphabetical order",
+            "match": {
+              "location": "WomenTestSteps.iShouldVerifyTheProductsNameDisplayInAlphabeticalOrder()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Women Test",
+    "description": "As a user I want to verify the products name filter and price filter",
+    "id": "women-test",
+    "keyword": "Feature",
+    "uri": "women.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@regression"
+      }
+    ]
+  }
+]
